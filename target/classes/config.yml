@@ -1,0 +1,23 @@
+isEnable: false
+isEnableSnow: true
+corner1:
+  world: "world"
+  x: 100
+  y: 60
+  z: 100
+  yaw: 0
+  pitch: 0
+corner2:
+  world: "world"
+  x: 200
+  y: 80
+  z: 200
+  yaw: 0
+  pitch: 0
+teleport:
+  world: "world"
+  x: 0
+  y: 100
+  z: 0
+  yaw: 0
+  pitch: 0

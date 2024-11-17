@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LobbyEffect:jar">
+    <output-path>$USER_HOME$/OneDrive/Data/CODE/JarFile</output-path>
+    <root id="archive" name="LobbyEffect.jar">
+      <element id="module-output" name="LobbyEffect" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,36 @@
+name: LobbyEffect
+version: '1.1-SNAPSHOT'
+main: me.lionvn.lobbyeffect.LobbyEffect
+api-version: '1.18'
+commands:
+  setcorner1:
+    description: Đặt tọa độ góc thứ nhất.
+    usage: /setcorner1
+  setcorner2:
+    description: Đặt tọa độ góc thứ hai.
+    usage: /setcorner2
+  setteleport:
+    description: Đặt vị trí dịch chuyển khi người chơi rời khu vực.
+    usage: /setteleport
+  snowoff:
+    description: Tắt hiệu ứng snow
+    usage: /snowoff
+  snowon:
+    description: Bật hiệu ứng snow
+    usage: /snowon
+permissions:
+  lobbyfly.setcorner1:
+    description: Cho phép người chơi đặt tọa độ góc thứ nhất.
+    default: op
+  lobbyfly.setcorner2:
+    description: Cho phép người chơi đặt tọa độ góc thứ hai.
+    default: op
+  lobbyfly.setteleport:
+    description: Cho phép người chơi đặt vị trí dịch chuyển.
+    default: op
+  lobbyfly.snowoff:
+    description: Cho phép người chơi tắt hiệu ứng snow.
+    default: op
+  lobbyfly.snowon:
+    description: Cho phép người chơi bật hiệu ứng snow.
+    default: op
