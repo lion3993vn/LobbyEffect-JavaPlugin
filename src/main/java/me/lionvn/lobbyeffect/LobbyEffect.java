@@ -218,6 +218,9 @@ public final class LobbyEffect extends JavaPlugin implements Listener {
 
                         // Thêm hiệu ứng night vision vĩnh viễn
                         player.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, Integer.MAX_VALUE, 1, true, false));
+
+                        player.setFoodLevel(20);
+                        player.setSaturation(20);
                     }
                 }
             }
